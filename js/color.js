@@ -55,7 +55,7 @@ function rgbToHSL(r, g, b) {
     s = parseInt(s * 100).toFixed(0);
     l = parseInt(l * 100).toFixed(0);
 
-    return `hsl(${h}%, ${s}%, ${l}%)`;
+    return `hsl(${h}, ${s}%, ${l}%)`;
 };
 
 function hexToRGB(hex) {
