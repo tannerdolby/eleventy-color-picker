@@ -104,8 +104,8 @@ main h1 {
 
 .colors li {
     padding: .75rem .5rem;
-    width: 19ch;
-    max-width: 20ch;
+    width: 20ch;
+    max-width: 21ch;
     border: .05rem solid lightgray;
     margin: 0 auto;
 }
