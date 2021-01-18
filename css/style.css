@@ -22,8 +22,6 @@ body {
     flex-direction: column;
     font-size: 1rem;
     background: #FDFDFD;
-    color: hsl(24%, 65%, 60%);
-    background-color: hsl(24%, 65%, 60%);
     margin: 0 auto;
     font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
 }
@@ -111,7 +109,7 @@ main h1 {
 }
 
 .colors li:nth-child(2) {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .canvas {
