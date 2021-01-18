@@ -16,9 +16,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 </head>
 <body>
-    {% include "nav.html" %}
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <main id="main-content">
+    {% include "nav.html" %}
+    <main id="main-content" tabindex="-1">
         <h1>{{ title }}</h1>
         {{ content | safe }}
     </main>
