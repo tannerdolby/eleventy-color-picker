@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% metagen 
+        title="11ty Color Picker",
+        desc="An interactive page for finding colors. The colors will be ouput as Hex, RGB and HSL.",
+        url="https://colorpicker.netlify.app",
+        img="https://colorpicker.netlify.app/images/socialShare.png",
+        img_alt="A screenshot of the 11ty Color Picker home page.",
+        twitterHandle="@tannerdolby",
+        author="Tanner Dolby"
+    %}
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+</head>
+<body>
+    {% include "nav.html" %}
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <main id="main-content">
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+    </main>
+    {% include "footer.html" %}
+    <script src="js/color.js"></script>
+</body>
+</html>

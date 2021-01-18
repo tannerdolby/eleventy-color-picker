@@ -1,0 +1,25 @@
+{
+  "name": "color-picker",
+  "version": "0.0.1",
+  "description": "A color picker website built with Eleventy.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "keywords": [
+    "color",
+    "color-picker",
+    "background-themes"
+  ],
+  "author": {
+    "email": "tannercdolby@gmail.com",
+    "name": "Tanner Dolby",
+    "url": "https://tannerdolby.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "eleventy-plugin-metagen": "^1.0.3"
+  }
+}
