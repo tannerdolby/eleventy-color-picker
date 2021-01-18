@@ -32,9 +32,9 @@ tags:
   </div>
 </ul>
 
-Hex: [Hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) codes are expressed as a six-digit combination of numbers and letters defined by it's mix of red, green and blue (RGB). Hexademical colors can be used like `#f06f06` using six-digits or in a more shorthand form using only three-digits `#f06`. A hex color code is shorthand for its equivalent `rgb()` definition. 
+RGB: The [RGB cubic-coordinate system](https://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation) can use either #-hexadecimal color codes or `rgb()`. The notation for specifying RGB colors is `rgb(240, 30, 200)`
 
-RGB: The [RGB cubic-coordinate system](https://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation) can use either #-hexadecimal color codes or `rgb()`. This color value can be used for CSS properties: `background`, `background-color` and `color` The notation for specifying RGB colors is `rgb(240, 30, 200)`
+Hex: [Hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) codes are expressed as a six-digit combination of numbers and letters defined by it's mix of red, green and blue (RGB). Hexademical colors can be used like `#eeeeee` using six-digits or in a more shorthand form using only three-digits `#eee`.
 
 HSL: The [HSL cylindrical-coordinate system](https://en.wikipedia.org/wiki/HSL_and_HSV) stands for hue, saturation and lightness. A hue value can range from 0-360 and saturation/lightness can range from 0% to 100%. The syntax for using HSL is `hsl(hue, saturation, lightness)` so a valid value would look like `hsl(300, 100%, 25%)`.
 
