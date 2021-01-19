@@ -101,3 +101,10 @@ function setColor() {
 };
 
 colorPicker.addEventListener("input", setColor);
+
+// only way to hide outline for click with mouse
+// still want :focus state to have outline for a11y reasons
+const main = document.querySelector('main');
+main.addEventListener("click", function() {
+    main.style.outline = "none";
+});
