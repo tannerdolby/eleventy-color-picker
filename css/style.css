@@ -1,7 +1,12 @@
-*,
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+:root {
+    --alfa-slab-one: 'Alfa Slab One', sans-serif;
 }
 
 .skip-link {
@@ -59,7 +64,7 @@ nav .home-btn:hover {
 }
 
 main {
-    max-width: 70ch;
+    max-width: 80ch;
     margin-top: 3rem;
     margin-bottom: 4rem;
     margin-left: auto;
@@ -69,7 +74,9 @@ main {
 
 main h1 {
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 4rem;
+    font-family: 'Noto Serif', sans-serif;
+    margin-top: 0;
 }
 
 #colorPicker {
@@ -93,6 +100,7 @@ main h1 {
     list-style: none;
     padding-left: 0;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     margin: 2.5rem auto;
@@ -104,7 +112,7 @@ main h1 {
     margin-bottom: .75rem;
 }
 
-.colors li {
+.colors p {
     padding: .75rem .5rem;
     width: 20ch;
     max-width: 21ch;
@@ -112,7 +120,7 @@ main h1 {
     margin: 0 auto;
 }
 
-.colors li:nth-child(2) {
+.colors p:nth-child(2) {
     margin-right: 1rem;
 }
 
@@ -145,7 +153,7 @@ footer {
     font-size: .8rem;
     border-top: .08rem solid lightgray;
     background: rgb(245, 245, 245);
-    color: #777;
+    color: #444;
     padding: 0 1rem;
 }
 
@@ -160,7 +168,8 @@ footer {
     padding: 0 .5rem;
 }
 
-footer a {
-    color: #777 !important;
+footer a,
+footer #footer-cr a {
+    color: #444;
     text-decoration: none;
 }
