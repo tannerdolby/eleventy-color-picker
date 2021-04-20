@@ -1,5 +1,5 @@
 ---
-title: Color Picker
+title: 11ty Color Picker
 date: 2021-01-17
 layout: "base.njk"
 tags:
@@ -16,21 +16,20 @@ tags:
   <div class="canvas"></div>
 </div>
 
-<ul class="colors">
+<div class="colors">
   <div class="column">
     <label for="res1">RGB</label>
-    <li id="res1"></li>
-  </li>
+    <p id="res1"></p>
   </div>
   <div class="column">
     <label for="res2">Hex</label>
-    <li id="res2"></li>
+    <p id="res2"></p>
   </div>
   <div class="column">
     <label for="res3">HSL</label>
-    <li id="res3"></li>
+    <p id="res3"></p>
   </div>
-</ul>
+</div>
 
 RGB: The [RGB cubic-coordinate system](https://en.wikipedia.org/wiki/RGB_color_model#Geometric_representation) can use either hexadecimal color codes or `rgb(red, green, blue)`. The values for each red, green, blue channel can range from 0-255. The notation for specifying RGB colors is `rgb(240, 30, 200)`.
 
@@ -38,6 +37,6 @@ Hex: [Hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) codes are exp
 
 HSL: The [HSL cylindrical-coordinate system](https://en.wikipedia.org/wiki/HSL_and_HSV) stands for hue, saturation and lightness. A hue value can range from 0-360 and saturation/lightness can range from 0% to 100%. The syntax for using HSL is `hsl(hue, saturation, lightness)` so a valid value would look like `hsl(300, 100%, 25%)`.
 
-<h3 id="general_knowledge">General knowledge</h3>
+<h2 id="general_knowledge">General knowledge</h2>
 
 Read more about [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) values on MDN.
